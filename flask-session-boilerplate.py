@@ -30,4 +30,12 @@ def logout():
     session["name"] = None
     return redirect("/")
 
+## Uncomment for autorefresh to work with Pixels128/Toolkit/refresh.js
+# import uuid
+# state = str(uuid.uuid4())
+# @app.route("/update")
+# def update():
+#     return {"state": state}
+
+
 app.run(host='0.0.0.0', port=80)
