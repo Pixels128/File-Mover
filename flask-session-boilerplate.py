@@ -30,7 +30,7 @@ def logout():
     session["name"] = None
     return redirect("/")
 
-## Uncomment for autorefresh to work with Pixels128/Toolkit/refresh.js
+## Uncomment to work with Pixels128/Toolkit/refresh.js
 # import uuid
 # state = str(uuid.uuid4())
 # @app.route("/update")
