@@ -1,10 +1,10 @@
 """GoogleAuthManager handles google authentication with Flask.
 
-This module initializes the cookies, filesystem, and prepares oauth.
-The class itself handles authentication with google. Particuarly, 
-loading important information google needs, handling sending the user to google,
-and handling when the user returns from google. When the user returns the method
-`get_callback_token` returns the token json object back to the main program.
+This module initializes the cookies, filesystem, and prepares oauth. 
+The class itself handles authentication with Google. Particularly, loading 
+important information Google needs, sending the user to Google, and handling 
+when the user returns from Google. When the user returns the method 
+`get_callback_token`, it returns the token JSON object back to the main program.
 
 Typical usage example:
     "Example of google_auth_manager"
